@@ -21,7 +21,7 @@ def key_sequence(keys, pause=0.1):
         keyboard.release(key)
 
 def cam_switch():
-    key_sequence([Key.alt_l, 'c'])
+    key_sequence([Key.alt_l, 'n'])
     state['main'] = not state['main']
 
 def toggle_cam():
